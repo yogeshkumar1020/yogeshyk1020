@@ -1,0 +1,38 @@
+1.Explain about the main method in java?
+A main() method in java is an entry point to start the execution of a program. Every Java application has at least one class and at least one main method.
+ Normally, an application consists of many classes and only one of the class needs to have a main method.
+
+2.What are the different  Control flow Statements available in java?
+statement 1; //executes when condition is true. } else{ statement 2; //executes when condition is false
+
+3.What is the Difference betweeen break and continue statements?
+The primary difference between break and continue statement in C is that the break statement leads to an immediate exit of the innermost switch or enclosing loop.
+ On the other hand, the continue statement begins the next iteration of the while, enclosing for, or do loop.
+
+4.What is an Array? How will you declare an array in java?
+int[] myIntegers; So to create an array, you specify the data type that will be stored in the array followed by square brackets and then the name of the array
+
+5.When will you get ArrayIndexOutOfBoundsException?
+The ArrayIndexOutOfBoundsException occurs whenever we are trying to access any item of an array at an index which is not present in the array. 
+In other words, the index may be negative or exceed the size of an array.
+
+6.Define the Syntax to create an object for a class.
+What are the naming conventions to be followed while creating a class, 
+method and a variable.Explain with examples
+Java follows camel-case syntax for naming the class, interface, method, and variable. If the name is combined with two words, the second word will start with uppercase letter always such as actionPerformed(), firstName, ActionEvent, ActionListener, etc.
+7.What is Variable?How will you declare a variables in java?
+To declare (create) a variable, you will specify the type, leave at least one space, then the name for the variable and end the line with a semicolon ( ; ). 
+Java uses the keyword int for integer, double for a floating point number (a double precision number), and boolean for a Boolean value (true or false).
+
+8.What is String in java? Is it a Data Type?
+A Java string data type is a sequence or string of connected characters, whereby the char data type represents a single character.
+
+9.What are the different ways to create the String Object in java?
+1.Using new keyword.
+2.Using new instance.
+3.Using clone() method.
+4.Using deserialization.
+5.Using newInstance() method of Constructor class
+
+10.What is the Difference between .Equals and ==? The main difference between the . equals() method and == operator is that one is a method, and the other is the operator. 
+We can use == operators for reference comparison (address comparison) and . equals() method for content comparison
